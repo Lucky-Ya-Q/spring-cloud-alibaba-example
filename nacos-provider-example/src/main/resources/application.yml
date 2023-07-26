@@ -1,0 +1,7 @@
+server:
+  port: 8070
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 123.57.63.56:8848
