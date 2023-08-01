@@ -5,3 +5,8 @@ spring:
     nacos:
       discovery:
         server-addr: 123.57.63.56:8848
+    sentinel:
+      # 取消控制台懒加载
+      eager: true
+      transport:
+        dashboard: 127.0.0.1:8718
